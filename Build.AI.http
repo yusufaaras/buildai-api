@@ -1,0 +1,6 @@
+@Build.AI_HostAddress = http://localhost:5056
+
+GET {{Build.AI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
