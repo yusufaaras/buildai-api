@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VITk2Aujis+APbmXvjzFku7lj6an0rrTTPUwgN6NF6GxyhMOmWlvsQnU5koqY1maTaZdv7Ziq3a7vgdVnaiOTA==",
+  "dgSpecHash": "tNiXSohjhUXFCT39OYQtw9i9buhqTy39Y7dgwRO5kkQHj4SeA5QPU2ZSVgNNKmSbtoEFcVM6ietNfaxWQ4wNOg==",
   "success": true,
-  "projectFilePath": "C:\\DotNetProject\\test-d4\\test-d4.csproj",
+  "projectFilePath": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\test-d4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusuf ARAS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Yusuf ARAS\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
