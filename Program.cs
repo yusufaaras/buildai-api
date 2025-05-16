@@ -18,7 +18,7 @@ namespace test_d4
             {
                 options.AddPolicy("AllowFrontend", policy =>
                 {
-                    policy.WithOrigins("http://127.0.0.1:5500") // veya "http://localhost:5500" 
+                    policy.WithOrigins("https://test-d4-lm4v.vercel.app/") // veya "http://localhost:5500" 
                           .AllowAnyHeader()
                           .AllowAnyMethod();
                 });
