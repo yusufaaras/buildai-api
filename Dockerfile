@@ -7,11 +7,11 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet restore "build.AI.csproj"
+RUN dotnet publish "build.AI.csproj" -c Release -o /app/publish
 
 # 3. Final image
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "Build.AI.dll"]
+ENTRYPOINT ["dotnet", "build.AI.dll"]
