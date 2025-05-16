@@ -14,7 +14,7 @@ namespace Build.AI.Controllers
         private readonly HttpClient _httpClient;
         private const string Endpoint = "https://ai-au1348ai018454803465.openai.azure.com/";
         private const string ModelName = "gpt-4.1";
-        private const string ApiKey = "2YMLlMAczCfNKvceZLpw5Q2esPrsrO281FmMo0DhSjgA0rxdPL7YJQQJ99BDACfhMk5XJ3w3AAAAACOGqs6e"; // <-- Değiştir!
+        private const string ApiKey = "2YMLlMAczCfNKvceZLpw5Q2esPrsrO281FmMo0DhSjgA0rxdPL7YJQQJ99BDACfhMk5XJ3w3AAAAACOGqs6e";  
 
         public ChatApiController(IHttpClientFactory httpClientFactory)
         {

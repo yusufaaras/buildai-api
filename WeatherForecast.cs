@@ -1,4 +1,4 @@
-namespace Build.AI
+namespace test_d4
 {
     public class WeatherForecast
     {

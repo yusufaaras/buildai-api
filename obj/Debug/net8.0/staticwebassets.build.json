@@ -1,19 +1,11 @@
 {
   "Version": 1,
-  "Hash": "vi2oUmKSImBQLX7tc34UzbKzrYbBb8LyPc1EwRLvuGo=",
-  "Source": "Build.AI",
-  "BasePath": "_content/Build.AI",
+  "Hash": "G9vrHEKRxOPwvJ8suX/42RtCNsnmXeVsc4TjBHx52Zw=",
+  "Source": "test-d4",
+  "BasePath": "_content/test-d4",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "Build.AI\\wwwroot",
-      "Source": "Build.AI",
-      "ContentRoot": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\",
-      "BasePath": "_content/Build.AI",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": []
 }

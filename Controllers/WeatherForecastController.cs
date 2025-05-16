@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Build.AI.Controllers
+namespace test_d4.Controllers
 {
     [ApiController]
     [Route("[controller]")]

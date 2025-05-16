@@ -9,11 +9,11 @@ WORKDIR /src
 COPY . .
 
 # 🔧 Dosya adını doğru kullandık
-RUN dotnet restore "Build.AI.csproj"
-RUN dotnet publish "Build.AI.csproj" -c Release -o /app/publish
+RUN dotnet restore "test-d4.csproj"
+RUN dotnet publish "test-d4.csproj" -c Release -o /app/publish
 
 # Final image
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "Build.AI.dll"]
+ENTRYPOINT ["dotnet", "test-d4.dll"]
