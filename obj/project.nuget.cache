@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sMp7Cc2velWy0LTGNlaVgztnbZfpeUhaqLvYNhygTS80F5c+yC2KyD91+qsnmhAPWUeqnN1soMagxwciToXI7A==",
+  "dgSpecHash": "nLB1rZWkruBjZMiQPoT0pIlEGozwR+dGkiXbonRR4jlsI8I5pu4aNoNyCmYjUs0C+Sdv2B2ElYzTl+O6x8WgQA==",
   "success": true,
-  "projectFilePath": "C:\\DotNetProject\\Build.AI\\Build.AI.csproj",
+  "projectFilePath": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\Build.AI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusuf ARAS\\.nuget\\packages\\azure.ai.openai\\2.1.0\\azure.ai.openai.2.1.0.nupkg.sha512",
     "C:\\Users\\Yusuf ARAS\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",

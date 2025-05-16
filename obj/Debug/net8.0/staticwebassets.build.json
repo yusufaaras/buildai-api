@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "apBWDKNlRpNkIFQYC3xghH3ueRYyQQyyPVGIhHdcXYM=",
+  "Hash": "atfENwY3hRfDz7Q8LF1Dyphui14CfLAntuC1jtNEt4c=",
   "Source": "Build.AI",
   "BasePath": "_content/Build.AI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Build.AI\\wwwroot",
+      "Source": "Build.AI",
+      "ContentRoot": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\",
+      "BasePath": "_content/Build.AI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\index.html",
+      "SourceId": "Build.AI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\",
+      "BasePath": "_content/Build.AI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\style (2).css",
+      "SourceId": "Build.AI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\",
+      "BasePath": "_content/Build.AI",
+      "RelativePath": "style (2).css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style (2).css"
+    },
+    {
+      "Identity": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\style.css",
+      "SourceId": "Build.AI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yusuf ARAS\\OneDrive\\Belgeler\\GitHub\\buildai-api\\wwwroot\\",
+      "BasePath": "_content/Build.AI",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
 }

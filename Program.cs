@@ -12,7 +12,7 @@ namespace Build.AI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // ? CORS konfigürasyonu
+            // CORS konfigürasyonu
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend", policy =>
@@ -34,8 +34,12 @@ namespace Build.AI
 
             app.UseHttpsRedirection();
 
-            // ? CORS middleware'i burada eklenmeli
+            // CORS middleware
             app.UseCors("AllowFrontend");
+
+            // Statik dosyalar için middleware'ler (bunlarý ekle)
+            app.UseDefaultFiles();  // index.html gibi dosyalarý otomatik bulur
+            app.UseStaticFiles();   // wwwroot altýndaki statik dosyalarý sunar
 
             app.UseAuthorization();
 
