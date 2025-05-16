@@ -30,12 +30,8 @@ namespace test_d4
             app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
-            app.UseCors("AllowFrontend");  
-
-
+            app.UseCors("AllowFrontend"); 
             app.UseAuthorization();
-
-
             app.MapControllers();
 
             app.Run();
