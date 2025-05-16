@@ -19,7 +19,7 @@ namespace test_d4
 
             // Configure the HTTP request pipeline.
             app.UseSwagger();
-            app.UseSwaggerUI()
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
 
